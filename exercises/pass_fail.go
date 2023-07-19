@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// Deterines if a grade is a passing or failing grade
 func PassFail() {
 	//Collect score as input from user and store it in a variable
 	fmt.Print("Enter a grade: ")
