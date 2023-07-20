@@ -1,9 +1,15 @@
 package main
 
 import (
-	"learning_go/exercises"
+	// "learning_go/exercises"
+	"fmt"
+	"reflect"
 )
 
 func main() {
-	exercises.PassFail()
+	// exercises.GuessGame()
+	hello := "hello"
+	fmt.Println(&hello)
+	fmt.Println(reflect.TypeOf(&hello))
+	fmt.Println(1 % 2)
 }
