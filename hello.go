@@ -1,15 +1,15 @@
 package main
 
 import (
-	// "learning_go/exercises"
 	"fmt"
-	"reflect"
+	"learning_go/exercises"
 )
 
 func main() {
-	// exercises.GuessGame()
-	hello := "hello"
-	fmt.Println(&hello)
-	fmt.Println(reflect.TypeOf(&hello))
-	fmt.Println(1 % 2)
+	true := true
+	exercises.Negate(&true)
+	fmt.Println(true)
+	false := false
+	exercises.Negate(&false)
+	fmt.Println(false)
 }
